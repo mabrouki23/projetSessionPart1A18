@@ -40,7 +40,7 @@ public class ProjetSessionPart1A18 {
         JSONObject terrainsortie = new JSONObject();
         
         String descripttion;
-        String vateurParLot;  
+        String valeurParLot;  
         /*pour formater le nombre en 2 chiffre apres vergule*/
         DecimalFormat df = new DecimalFormat("0.00$");
         for (int i = 0; i < lotissements.size(); i++) {
